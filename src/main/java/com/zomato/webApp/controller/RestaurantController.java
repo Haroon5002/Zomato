@@ -18,7 +18,7 @@ import com.zomato.webApp.model.Restaurant;
 import com.zomato.webApp.repository.RestaurantRepository;
 import com.zomato.webApp.services.RestaurantService;
 
-@CrossOrigin(origins = "http://localhost:4200") // Allow Angular frontend
+@CrossOrigin(origins = "*") // Allow Angular frontend
 
 @RestController
 @RequestMapping("/restaurants") // Changed to plural for RESTful conventions
